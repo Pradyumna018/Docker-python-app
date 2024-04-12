@@ -59,6 +59,7 @@ To grant access to your user to run the docker command, you should add the user 
 
 ```
 sudo usermod -aG docker ubuntu
+newgrp docker
 ```
 
 In the above command `ubuntu` is the name of the user, you can change the username appropriately.
